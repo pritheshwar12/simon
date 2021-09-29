@@ -33,6 +33,9 @@ $(".btn1").click(function() {
   checkAnswer(userClickedPattern.length-1);
 });
 
+function popUp(){
+swal("Good job!","You clicked the button");
+}
 
 function checkAnswer(currentLevel) {
 
