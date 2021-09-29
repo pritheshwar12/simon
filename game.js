@@ -34,7 +34,12 @@ $(".btn1").click(function() {
 });
 
 function popUp(){
-swal("Good job!","You clicked the button");
+swal({
+  title: "Rules for Simon",
+  text: "You Need To Remember The Color Pattern Order And Click the Colour In Same Order",
+  icon: "info",
+  button: "Enjoy!",
+});
 }
 
 function checkAnswer(currentLevel) {
